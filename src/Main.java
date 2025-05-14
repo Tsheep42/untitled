@@ -1,4 +1,4 @@
-import static jdk.internal.org.jline.utils.InfoCmp.Capability.tab;
+
 
 //TIP コードを<b>実行</b>するには、<shortcut actionId="Run"/> を押すか
 // ガターの <icon src="AllIcons.Actions.Execute"/> アイコンをクリックします。
@@ -15,6 +15,6 @@ public class Main {
         }
 
         System.out.print("こんにちは。");
-        System.out.println("今日の天気は" +tab+ "晴れです。");
+//        System.out.println("今日の天気は" +tab+ "晴れです。");
     }
 }
