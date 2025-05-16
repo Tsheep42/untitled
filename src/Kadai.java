@@ -1,6 +1,4 @@
-import java.lang.management.PlatformLoggingMXBean;
-
-public class Hukusyuu {
+public class Kadai {
     public static void main(String[] args) {
         //復習問題1
         System.out.print("こんにちは");
