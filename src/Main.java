@@ -15,6 +15,6 @@ public class Main {
         }
 
         System.out.print("こんにちは。");
-//        System.out.println("今日の天気は" +tab+ "晴れです。");
+        //System.out.println("今日の天気は" +tab+ "晴れです。");
     }
 }
