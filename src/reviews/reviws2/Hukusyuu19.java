@@ -8,6 +8,6 @@ public class Hukusyuu19 {
         for (i = 1; i <= num; i++) {
             factorinal = factorinal * i;
         }
-        System.out.println("結果"+factorinal);
+        System.out.println("結果" + factorinal);
     }
 }

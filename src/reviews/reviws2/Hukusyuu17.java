@@ -9,10 +9,8 @@ public class Hukusyuu17 {
         int sum = 0;
         int i = 0;
         for (i = 1; i <= num; i++) {
-            System.out.print("数値を入力＞");
-            int n = Integer.parseInt(br.readLine());
-            if (n % 2 == 0){
-                sum = sum + n;
+            if (i % 2 == 0){
+                sum = sum + i;
             }
         }
         System.out.println("結果"+sum);
