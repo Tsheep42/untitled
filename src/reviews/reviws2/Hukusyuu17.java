@@ -8,10 +8,9 @@ public class Hukusyuu17 {
         int num = 7;
         int sum = 0;
         int i = 0;
-        for (i = 1; i <= num; i++) {
-            if (i % 2 == 0){
-                sum = sum + i;
-            }
+        while (i <=num) {
+            sum = sum + i;
+            i = i + 2;
         }
         System.out.println("結果"+sum);
     }

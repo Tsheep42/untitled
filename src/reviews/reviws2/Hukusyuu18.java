@@ -7,11 +7,10 @@ public class Hukusyuu18 {
         BufferedReader br = new BufferedReader(isr);
         int num = 7;
         int sum = 0;
-        int i = 0;
-        for (i = 1; i <= num; i++) {
-            if (i % 2 == 1){
-                sum = sum + i;
-            }
+        int i = 1;
+        while (i <=num) {
+            sum = sum + i;
+            i = i + 2;
         }
         System.out.println("結果"+sum);
     }
