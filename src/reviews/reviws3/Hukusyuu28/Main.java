@@ -8,7 +8,7 @@ public class Main {
         String to = br.readLine();
         System.out.print("件名を入力＞" );
         String subject = br.readLine();
-        System.out.print("本文を入力");
+        System.out.print("本文を入力＞");
         String body = br.readLine();
         Email email = new Email();
         if(subject != null){
